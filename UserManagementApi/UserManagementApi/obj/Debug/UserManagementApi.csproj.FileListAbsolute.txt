@@ -1,0 +1,96 @@
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\ApplicationInsights.config
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\UserManagementApi.dll.config
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\UserManagementApi.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\UserManagementApi.pdb
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Web.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Web.xml
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.csprojResolveAssemblyReference.cache
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.pdb
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\MySql.Data.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Google.Protobuf.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\ZstdNet.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\BouncyCastle.Crypto.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\Ubiety.Dns.Core.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\System.Buffers.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\K4os.Compression.LZ4.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\K4os.Hash.xxHash.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\MySql.Data.xml
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\log4net.dll
+C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\bin\log4net.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\ApplicationInsights.config
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\UserManagementApi.dll.config
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\UserManagementApi.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\UserManagementApi.pdb
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\log4net.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Web.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\MySql.Data.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Google.Protobuf.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\ZstdNet.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\BouncyCastle.Crypto.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Ubiety.Dns.Core.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\System.Buffers.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\K4os.Compression.LZ4.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\K4os.Hash.xxHash.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\log4net.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Web.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\bin\MySql.Data.xml
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.csprojResolveAssemblyReference.cache
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.dll
+C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.pdb
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\ApplicationInsights.config
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\UserManagementApi.dll.config
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\UserManagementApi.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\UserManagementApi.pdb
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\log4net.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Web.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.ApplicationInsights.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\MySql.Data.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Google.Protobuf.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\ZstdNet.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\K4os.Compression.LZ4.Streams.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\BouncyCastle.Crypto.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Ubiety.Dns.Core.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\System.Memory.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\System.Buffers.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\K4os.Compression.LZ4.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\K4os.Hash.xxHash.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\log4net.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.Web.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\Microsoft.ApplicationInsights.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\bin\MySql.Data.xml
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.csproj.AssemblyReference.cache
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.csproj.CoreCompileInputs.cache
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.csproj.CopyComplete
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.dll
+C:\Users\harsh.p\Desktop\final project\final api\UserManagementApi\UserManagementApi\obj\Debug\UserManagementApi.pdb

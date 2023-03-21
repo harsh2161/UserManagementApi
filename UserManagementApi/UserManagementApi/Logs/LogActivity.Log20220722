@@ -1,0 +1,925 @@
+*ERROR      /  2022-07-22 11:09:35,826        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Access Denied
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 46
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 11:09:35,831        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Access Denied
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 46
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 11:09:49,274        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:09:49,274        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:09:49,283        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:09:49,283        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:09:49,283        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:09:49,284        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:09:49,284        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:09:49,285        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:31:38,189        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:31:38,189        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:31:38,193        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:31:38,194        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:31:38,194        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:31:38,194        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:31:38,195        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:31:38,195        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:31:55,974        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:31:55,974        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:31:55,976        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:31:55,976        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:31:55,976        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:31:55,977        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:31:55,977        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:31:55,977        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:32:15,305        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:32:15,305        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:32:15,307        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:32:15,307        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:32:15,308        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:32:15,308        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:32:15,308        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:32:15,308        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 11:32:39,511        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: Page Size Should Less Than 50
+   at UserManagementApi.Validator.SearchSortValidation.PageSizeValidation.IsPageSizeValid(Int32 pageSize) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\SearchSortValidation\PageSizeValidation.cs:line 11
+   at UserManagementApi.Validator.SearchSortValidation.PageSizeIndexValidation.IsPageSizeIndexValid(Int32 pageIndex, Int32 pageSize) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\SearchSortValidation\PageSizeIndexValidation.cs:line 7
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 29
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 11:32:39,511        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: Page Size Should Less Than 50
+   at UserManagementApi.Validator.SearchSortValidation.PageSizeValidation.IsPageSizeValid(Int32 pageSize) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\SearchSortValidation\PageSizeValidation.cs:line 11
+   at UserManagementApi.Validator.SearchSortValidation.PageSizeIndexValidation.IsPageSizeIndexValid(Int32 pageIndex, Int32 pageSize) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\SearchSortValidation\PageSizeIndexValidation.cs:line 7
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 29
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 11:32:53,816        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:32:53,816        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:32:53,818        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:32:53,818        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:32:53,818        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:32:53,819        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:32:53,819        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:32:53,819        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:33:04,648        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:33:04,648        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:33:04,649        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:33:04,649        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:33:04,649        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:33:04,650        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:33:04,650        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:33:04,650        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:33:24,835        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:33:24,836        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:33:24,837        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:33:24,837        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:33:24,837        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:33:24,837        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:33:24,837        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:33:24,837        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:45:43,122        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:45:43,122        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:45:43,170        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:45:43,170        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:45:43,170        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:45:43,185        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:45:43,185        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:45:43,185        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:46:04,778        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:46:04,778        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:46:04,856        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 11:46:13,077        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Parameter 'ID' not found in the collection.
+   at MySql.Data.MySqlClient.MySqlParameterCollection.GetParameterFlexible(String parameterName, Boolean throwOnNotFound)
+   at MySql.Data.MySqlClient.StoredProcedure.GetAndFixParameter(String spName, MySqlSchemaRow param, Boolean realAsFloat, MySqlParameter returnParameter)
+   at MySql.Data.MySqlClient.StoredProcedure.CheckParameters(String spName)
+   at MySql.Data.MySqlClient.StoredProcedure.Resolve(Boolean preparing)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at UserManagementApi.DatabaseLayer.DatabaseConnection.ExecuteReaderCommand(String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseConnection.cs:line 101
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 15
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Execute[T](String procedureName) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 53
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 42
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 11:48:18,371        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:48:18,379        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:48:18,387        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:48:18,387        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:48:18,387        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:48:18,387        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:48:18,387        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:48:18,387        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:48:34,247        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:48:34,247        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:48:34,252        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:48:34,252        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 11:48:34,252        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:48:34,253        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:48:34,253        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:48:34,253        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:49:08,889        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:49:26,406        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:49:26,406        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:49:26,407        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:49:26,407        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 11:49:26,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:49:26,408        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:49:26,408        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:49:26,408        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:58:08,390        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:58:08,398        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:58:08,437        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 11:58:08,437        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 11:58:08,437        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:58:08,437        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:58:08,437        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:58:08,437        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:58:27,708        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 11:58:27,708        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:58:27,752        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 11:58:27,752        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 11:58:27,752        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 11:58:27,752        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 11:58:27,752        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:58:27,752        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 11:59:58,010        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 11:59:58,010        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 11:59:58,010        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 11:59:58,050        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 11:59:58,050        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 11:59:58,066        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 12:00:21,702        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 12:00:21,702        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 12:00:21,704        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 12:00:21,704        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 12:00:21,704        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 12:00:21,704        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 12:00:21,705        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:00:21,705        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:02:01,929        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harsh@gamil.com. 
+*INFO       /  2022-07-22 12:02:01,929        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 12:02:01,929        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 12:02:01,929        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 12:02:01,929        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 12:02:01,953        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harsh@gamil.comWith Token Generated : owMZ9K69I8TgMDcxkUW0RizlyuMgVVGDeOAaOA4j1KeteqfXuPFmpRhIa3NznADR9THI1nMkME6RhVwFpjOAdf/C7VDeuxcwfz/6nWx9ZRlSvWVbPzxVaukYIiZrua5u. 
+*ERROR      /  2022-07-22 12:02:29,639        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 48
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 48
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 12:03:35,819        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 48
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 48
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 12:04:02,071        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 48
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 48
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 12:04:45,781        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 48
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 48
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 12:05:28,464        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 48
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 48
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 12:06:57,529        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 12:06:57,529        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:06:57,545        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:06:57,545        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:06:57,545        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 12:06:57,545        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 12:06:57,545        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:06:57,545        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:21,763        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:21,763        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:10:21,783        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:10:21,783        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:10:21,784        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 12:10:21,785        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 12:10:21,786        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:21,787        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:40,475        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:40,475        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:10:40,476        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:10:40,476        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 12:10:40,476        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 12:10:40,476        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 12:10:40,476        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:40,476        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:10:51,210        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 12:10:51,210        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 12:10:51,210        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 12:10:51,210        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 12:10:51,210        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 12:10:51,226        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 12:11:09,213        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 12:11:09,213        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 12:11:09,221        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 12:11:09,221        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 12:11:09,221        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 12:11:09,221        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 12:11:09,221        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:11:09,221        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 12:11:24,214        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:29:28,011        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:29:28,019        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:29:28,027        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:29:28,027        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:29:28,027        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:29:28,027        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:29:28,027        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:29:28,027        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:29:56,994        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 14:29:56,994        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 14:29:56,994        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 14:29:57,002        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 14:29:57,002        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 14:29:57,010        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:21,466        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:35,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:30:51,430        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 14:31:08,584        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 14:31:26,908        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 14:31:35,824        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 14:31:45,592        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:12,602        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:18,830        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:50,857        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:50,858        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:32:50,860        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:32:50,860        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:32:50,860        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:32:50,860        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:32:50,860        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:32:50,860        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 14:32:59,260        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 14:33:57,653        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 14:35:28,351        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:35:28,356        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:35:28,364        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:35:28,365        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:35:28,365        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:35:28,366        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:35:28,366        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:35:28,366        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 14:36:50,855        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentException: Item has already been added. Key in dictionary: '@SearchText'  Key being added: '@SearchText'
+   at System.Collections.Hashtable.Insert(Object key, Object nvalue, Boolean add)
+   at System.Collections.Hashtable.Add(Object key, Object value)
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.AddFields(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 24
+   at UserManagementApi.BusinessLayer.BusinessHelper.SearchSortHashTable.GetSearchSortHashTable(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\BusinessHelper\SearchSortHashTable.cs:line 16
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 28
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 14:38:40,554        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:38:40,559        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:38:40,564        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:38:40,564        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:38:40,564        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:38:40,566        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:38:40,566        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:38:40,566        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:46:01,373        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:46:01,379        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:46:01,384        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:46:01,384        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:46:01,385        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:46:01,386        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:46:01,386        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:46:01,386        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:46:22,119        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:46:22,120        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:46:22,121        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:46:22,121        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:46:22,121        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:46:22,161        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:46:22,161        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:46:22,161        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 14:46:52,021        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: Id Length Range 10 to 100
+   at UserManagementApi.Validator.UserValidation.IdValidation.IsIdValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\UserValidation\IdValidation.cs:line 19
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 36
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 14:46:52,021        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: Id Length Range 10 to 100
+   at UserManagementApi.Validator.UserValidation.IdValidation.IsIdValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\UserValidation\IdValidation.cs:line 19
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 36
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 14:47:18,467        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:47:18,468        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:47:18,469        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:47:18,469        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:47:18,469        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:47:18,469        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:47:18,469        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:47:18,469        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:47:43,964        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:47:43,964        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:47:43,968        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:47:43,968        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:47:43,968        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:47:43,968        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:47:43,968        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:47:43,968        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:07,910        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:07,910        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:48:07,911        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:48:07,911        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:48:07,911        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:48:07,911        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:48:07,911        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:07,911        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:27,457        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:27,458        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:48:27,458        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:48:27,458        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:48:27,458        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:48:27,458        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:48:27,459        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:27,459        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:46,873        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:46,874        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:48:46,874        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 14:48:46,874        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 14:48:46,874        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:48:46,874        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:48:46,875        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:48:46,875        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:49:05,008        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:49:05,008        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:49:05,009        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 14:49:05,010        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 14:49:05,010        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:49:05,010        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:49:05,010        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:49:05,010        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:49:40,873        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harsh@gamil.com. 
+*INFO       /  2022-07-22 14:49:40,873        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 14:49:40,873        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 14:49:40,879        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 14:49:40,879        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 14:49:40,895        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harsh@gamil.comWith Token Generated : owMZ9K69I8TgMDcxkUW0RizlyuMgVVGDeOAaOA4j1KeteqfXuPFmpRhIa3NznADR9THI1nMkME6RhVwFpjOAdf/C7VDeuxcwfz/6nWx9ZRlSvWVbPzxVaukYIiZrua5u. 
+*INFO       /  2022-07-22 14:50:01,731        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:01,732        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:01,769        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:01,769        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:01,769        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:50:01,769        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:50:01,769        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:01,769        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:16,404        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:16,404        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:16,407        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:16,407        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:16,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:50:16,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:50:16,408        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:16,408        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:40,451        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:40,451        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:40,451        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:40,451        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:50:40,451        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:50:40,451        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:50:40,452        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:50:40,452        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:51:15,520        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 14:51:15,520        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:51:15,521        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:51:15,521        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 14:51:15,521        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 14:51:15,521        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 14:51:15,522        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 14:51:15,522        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:36:24,365        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:36:24,413        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:36:24,521        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:36:24,525        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:36:24,525        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:36:24,542        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harsh@gamil.comWith Token Generated : owMZ9K69I8TgMDcxkUW0RizlyuMgVVGDeOAaOA4j1KeteqfXuPFmpRhIa3NznADR9THI1nMkME6RhVwFpjOAdf/C7VDeuxcwfz/6nWx9ZRlSvWVbPzxVaukYIiZrua5u. 
+*ERROR      /  2022-07-22 15:36:42,576        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at UserManagementApi.Validator.UserValidation.EmailPasswordValidation.IsEmailPasswordValid(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\Validator\UserValidation\EmailPasswordValidation.cs:line 9
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 13
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 17. 
+*INFO       /  2022-07-22 15:37:09,923        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:37:09,923        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:37:09,923        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:37:09,938        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:37:09,938        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:37:09,940        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harsh@gamil.comWith Token Generated : owMZ9K69I8TgMDcxkUW0RizlyuMgVVGDeOAaOA4j1KeteqfXuPFmpRhIa3NznADR9THI1nMkME6RhVwFpjOAdf/C7VDeuxcwfz/6nWx9ZRlSvWVbPzxVaukYIiZrua5u. 
+*INFO       /  2022-07-22 15:37:55,552        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*ERROR      /  2022-07-22 15:37:55,568        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Access Denied
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get[T](SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 32
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 15:37:55,568        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Access Denied
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get[T](SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 32
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 15:38:31,675        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*ERROR      /  2022-07-22 15:38:44,283        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Access Denied
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get[T](SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 32
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*ERROR      /  2022-07-22 15:38:44,284        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Access Denied
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get[T](SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 32
+   at UserManagementApi.UserService.GetUser(SearchFilter searchFilter, String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 69. 
+*INFO       /  2022-07-22 15:40:02,886        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:40:03,001        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:40:03,001        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:40:03,010        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:40:03,010        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:40:03,010        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:40:03,011        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:40:03,011        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:40:25,188        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:40:28,780        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:41:32,674        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:41:37,390        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:41:37,390        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:41:37,418        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:41:37,418        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:41:37,418        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:41:37,418        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:41:37,418        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:42:02,843        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:42:10,107        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:42:10,107        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:42:10,108        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:42:10,108        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:42:10,108        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:42:10,109        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:42:10,109        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:42:18,918        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:42:21,008        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:42:21,008        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:42:21,009        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:42:21,009        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:42:21,009        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:42:21,009        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:42:21,009        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:43:03,893        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:43:06,346        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:43:06,346        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:43:06,348        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:43:06,349        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:43:06,349        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:43:06,349        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:43:06,349        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:43:49,903        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:43:51,862        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:43:51,862        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:43:51,870        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:43:51,870        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:43:51,870        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:43:51,870        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:43:51,870        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:44:23,894        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:44:32,816        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:44:32,816        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:44:32,817        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:44:32,817        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:45:07,761        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:45:40,789        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:45:40,789        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:45:44,063        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:46:01,719        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:46:01,719        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:46:01,720        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:46:01,720        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:46:36,780        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:46:52,798        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:46:52,798        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:48:59,331        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:48:59,339        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:48:59,347        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:48:59,347        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:01,672        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:49:03,206        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:49:03,206        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:03,206        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:21,974        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:21,974        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:21,974        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:21,974        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:23,624        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:49:24,668        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:49:24,668        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:24,668        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:39,802        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:39,802        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:39,810        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:39,810        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:49:45,316        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:49:46,544        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:49:46,545        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:49:46,546        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:50:20,179        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey92@gmail.com. 
+*INFO       /  2022-07-22 15:50:20,179        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:50:20,179        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-22 15:50:20,179        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:50:20,179        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-22 15:50:20,195        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey92@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+JqBkKLrMKLj/vA53Nquuz3dG9t7dFZca7bwzsowQMRH120fJKmR7/l2FHDovAk1rG8nG3G3R8v4H+mQQagZI+J1LzR/XNL+t21UO0PqvXQmI3u9bj5HUrTnNfZgRqfggA==. 
+*INFO       /  2022-07-22 15:50:46,578        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:50:46,578        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 15:50:46,586        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 15:50:46,586        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 15:50:48,421        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:50:49,392        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:50:49,392        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:50:49,392        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:51:17,290        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:51:17,290        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 15:51:17,290        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 15:51:17,290        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 15:51:19,025        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:51:19,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:51:19,966        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:51:19,966        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:51:36,575        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:51:36,575        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 15:51:36,583        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 15:51:36,583        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 15:51:38,518        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:51:39,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:51:39,383        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:51:39,383        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:11,391        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:11,391        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 15:53:11,407        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 15:53:11,407        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 15:53:13,209        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:53:13,209        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:53:13,209        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:13,209        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:23,625        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:23,625        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 15:53:23,625        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 15:53:23,625        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 15:53:25,340        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:53:25,340        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:53:25,341        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:25,344        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:48,369        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:48,369        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 15:53:48,369        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 15:53:48,376        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 15:53:53,388        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:53:53,388        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:53:53,388        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:53:53,388        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:54:10,466        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:54:10,467        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:54:10,468        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:54:10,470        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 15:54:10,470        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-22 15:54:10,484        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harsh@gamil.comWith Token Generated : owMZ9K69I8TgMDcxkUW0RizlyuMgVVGDeOAaOA4j1KeteqfXuPFmpRhIa3NznADR9THI1nMkME6RhVwFpjOAdf/C7VDeuxcwfz/6nWx9ZRlSvWVbPzxVaukYIiZrua5u. 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:54:26,908        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 15:54:39,374        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:00:36,201        / UserManagementApi.BusinessLayer.UserRepository.GetUserService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:00:36,298        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:04:45,173        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:04:45,173        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:04:45,173        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:04:45,173        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:04:45,173        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:04:45,189        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:04:45,189        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:04:45,189        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:05:02,703        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:05:39,596        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 16:05:39,596        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 16:05:39,596        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 16:05:39,604        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 16:05:39,604        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 16:05:39,620        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:05:59,941        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:12,409        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:29,887        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:06:46,523        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:39:58,787        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 16:39:58,803        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 16:39:58,886        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 16:39:58,886        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 16:39:58,886        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 16:39:58,913        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 16:41:05,407        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:07:39,600        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:07:39,608        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:07:39,696        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:07:39,704        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:07:39,704        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:07:39,720        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 18:08:56,704        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:08:56,704        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:08:56,712        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:08:56,712        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:08:56,712        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:08:56,712        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:08:56,712        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:08:56,712        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 18:08:56,768        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 27
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 16
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*ERROR      /  2022-07-22 18:08:56,768        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 27
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 16
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*INFO       /  2022-07-22 18:10:06,096        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:10:06,096        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-22 18:10:06,096        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:06,104        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-22 18:10:06,104        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:06,104        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:10:06,104        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-22 18:10:06,104        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:06,152        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-22 18:10:06,152        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:06,152        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:31,965        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 18:10:31,973        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 27
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 16
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*ERROR      /  2022-07-22 18:10:31,973        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 27
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 16
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:10:48,416        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 18:10:48,432        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 27
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 16
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*ERROR      /  2022-07-22 18:10:48,440        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 27
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 16
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-22 18:15:48,382        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:15:48,437        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-22 18:15:48,437        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:15:48,437        / UserManagementApi.DatabaseLayer.UserRepository.DeleteRepository /  User Deleted Succesfully Having Id : 4d3370ad-6360-4e0f-846e-00ee221703f8. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:16:02,843        / UserManagementApi.DatabaseLayer.UserRepository.DeleteRepository /  User Deleted Succesfully Having Id : 4244dc69-f935-456a-ae10-1e3e82ec5f16. 
+*INFO       /  2022-07-22 18:17:04,850        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:17:04,850        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-22 18:17:04,850        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:17:04,858        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-22 18:17:04,858        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:17:04,858        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:17:04,858        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-22 18:17:04,858        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:17:04,899        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-22 18:17:04,899        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:17:04,899        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:17:49,854        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:17:49,854        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:17:49,854        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:17:49,862        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:17:49,862        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:17:49,878        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 
+*INFO       /  2022-07-22 18:18:49,851        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:18:49,851        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:18:49,859        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:18:49,859        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:18:49,859        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:18:49,859        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:18:49,859        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:18:49,859        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:19:15,041        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-22 18:19:15,042        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:19:15,046        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-22 18:19:15,046        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:19:15,046        / UserManagementApi.DatabaseLayer.UserRepository.DeleteRepository /  User Deleted Succesfully Having Id : 385ca84e-47a3-499e-9c66-7b58317c5645. 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:19:45,700        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-22 18:19:45,724        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 35
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 24
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*ERROR      /  2022-07-22 18:19:45,724        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: You Can't Delete Yourself
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.IsUserValid(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 35
+   at UserManagementApi.BusinessLayer.UserRepository.DeleteService.Delete(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\DeleteService.cs:line 24
+   at UserManagementApi.UserService.DeleteUser(String id) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 56. 
+*INFO       /  2022-07-22 18:20:06,150        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:20:06,150        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-22 18:20:06,150        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:20:06,158        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-22 18:20:06,158        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:20:06,158        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:20:06,158        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-22 18:20:06,158        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-22 18:20:06,196        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-22 18:20:06,196        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-22 18:20:06,196        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:20:40,001        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:20:40,001        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : nephalsinghchauhan2161@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:20:40,001        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:20:40,009        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : nephalsinghchauhan2161@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:20:40,009        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-22 18:20:40,017        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : nephalsinghchauhan2161@gmail.comWith Token Generated : pD/fNJYgV9k0UvuD1AmwK6IOQSSWrQNC1LhvZigKrT5bMrj96vQ7M+8tfp+NQGsxHc9F+ybrogMUEJxIAFQwlhe3gaiuxi6AWBKvULejovnaZFbXV+d3E9MHnHopnexcEFt+KUsbhGNXP7CBIvm/hJbRq4yo/2c984sRvExAxw9qhCdPQ8Ck81sPyYxHWgJ7qIxvrCpMXS4XSZToK2vimA==. 
+*ERROR      /  2022-07-22 18:21:09,733        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 38
+   at UserManagementApi.CustomAttributes.CustomAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomAuthorization.cs:line 50. 
+*ERROR      /  2022-07-22 18:21:09,733        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 38
+   at UserManagementApi.CustomAttributes.CustomAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomAuthorization.cs:line 50. 
+*INFO       /  2022-07-22 18:21:29,399        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:21:29,399        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:21:29,399        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:21:29,399        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-22 18:21:29,399        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-22 18:21:29,423        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15uLLftyw68B8SMWbGzzYBww==. 

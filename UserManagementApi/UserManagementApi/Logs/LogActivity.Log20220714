@@ -1,0 +1,315 @@
+*INFO       /  2022-07-14 10:08:28,798        / MonitoringLogger                                                       / Authentication Started. 
+*ERROR      /  2022-07-14 10:08:28,798        / MonitoringLogger                                                       / harshpandey9079@gmail.com Have Wrong Credentials Format. 
+*ERROR      /  2022-07-14 10:08:28,860        / MonitoringLogger                                                       / Catched Error While Authentication UserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*ERROR      /  2022-07-14 10:08:28,860        / MonitoringLogger                                                       / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*ERROR      /  2022-07-14 10:08:28,860        / MonitoringLogger                                                       / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*INFO       /  2022-07-14 10:09:56,845        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:09:56,955        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:09:57,096        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:09:57,111        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:09:57,111        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:09:57,127        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:11:15,787        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:11:15,787        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:11:15,787        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:11:15,787        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:11:15,787        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:11:15,802        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:13:12,060        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:13:12,060        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:13:12,060        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:13:12,060        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:13:12,060        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:13:12,076        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:13:27,243        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:13:27,243        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:13:27,243        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:13:27,243        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:13:27,243        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:13:27,259        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:13:50,438        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:13:50,438        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:13:50,438        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:13:50,438        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:13:50,438        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:13:50,464        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:14:56,150        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:14:56,150        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:14:56,150        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:14:56,150        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:14:56,150        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:14:56,150        / MonitoringLogger                                                       / harshpandey907@gmail.com is NotAuthenticated. 
+*INFO       /  2022-07-14 10:17:44,667        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:17:44,783        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:17:44,896        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:17:44,900        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:17:44,900        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:17:44,900        / MonitoringLogger                                                       / harshpandey907@gmail.com is NotAuthenticated. 
+*INFO       /  2022-07-14 10:55:52,538        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:55:52,672        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:55:52,777        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:55:52,783        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:55:52,783        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:55:52,797        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:57:21,619        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:57:21,620        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:57:21,622        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:57:21,623        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:57:21,623        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:57:21,636        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:57:36,268        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:57:36,268        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:57:36,269        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:57:36,269        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:57:36,269        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:57:36,284        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 10:59:26,817        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 10:59:26,818        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 10:59:26,820        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 10:59:26,821        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 10:59:26,821        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 10:59:26,838        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:03:11,957        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:03:11,958        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:03:11,959        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:03:11,960        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:03:11,960        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:03:11,975        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:04:28,564        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:04:28,566        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:04:28,570        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:04:28,571        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:04:28,571        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:04:28,588        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:05:35,473        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:05:35,475        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:05:35,477        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:05:35,478        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:05:35,478        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:05:35,492        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:06:21,476        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:06:21,477        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:06:21,478        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:06:21,481        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:06:21,482        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:06:21,496        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:06:41,062        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:06:41,062        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:06:41,065        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:06:41,065        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:06:41,065        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:06:41,080        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:48,068        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:48,068        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:48,068        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:48,068        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:48,068        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:48,084        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:48,084        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:48,084        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:48,084        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:48,084        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:48,093        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:48,094        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:48,098        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:48,098        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:48,098        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:48,106        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:48,106        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:48,106        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:48,107        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:48,107        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:48,107        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:48,110        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:48,111        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:48,111        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:48,111        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:48,112        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:48,113        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:48,114        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:48,127        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:48,132        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:48,136        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:48,140        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:48,140        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:48,140        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:48,148        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:48,164        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:08:52,294        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:08:52,295        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:08:52,296        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:08:52,296        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:08:52,296        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:08:52,313        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:09:03,577        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:09:03,578        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:09:03,579        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:09:03,579        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:09:03,579        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:09:03,602        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:10:19,010        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:10:19,011        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:10:19,012        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:10:19,013        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:10:19,014        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:10:19,032        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:13:22,196        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:13:22,196        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:13:22,196        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:13:22,196        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:13:22,196        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:13:22,212        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:25:16,722        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:25:16,722        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:25:16,738        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:25:16,738        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:25:16,738        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:25:16,753        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:26:31,535        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:26:31,536        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:26:31,541        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:26:31,542        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:26:31,542        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:26:31,561        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:32:32,618        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:32:32,619        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:32:32,644        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:32:32,644        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:32:32,644        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:32:32,660        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:43:39,620        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:43:40,108        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:43:40,220        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:43:40,228        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:43:40,228        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:43:40,244        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:49:13,223        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:49:13,231        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:49:13,255        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:49:13,255        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:49:13,255        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:49:13,279        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:49:40,142        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:49:40,142        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:49:40,150        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:49:40,150        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:49:40,150        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:49:40,166        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:51:11,713        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:51:11,713        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:51:11,713        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:51:11,713        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:51:11,713        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:51:11,731        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:53:51,509        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:53:51,509        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:53:51,509        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:53:51,509        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:53:51,509        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:53:51,529        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:55:16,205        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:55:16,205        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:55:16,213        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:55:16,213        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:55:16,213        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:55:16,221        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:56:31,205        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:56:31,205        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:56:31,213        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:56:31,213        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:56:31,213        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:56:31,229        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:57:58,972        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:57:58,972        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:57:58,972        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:57:58,972        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:57:58,972        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:57:58,987        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:58:29,241        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:58:29,241        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:58:29,241        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:58:29,241        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:58:29,241        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:58:29,270        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 11:59:06,909        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 11:59:06,909        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 11:59:06,909        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 11:59:06,909        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 11:59:06,909        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 11:59:06,924        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:15:19,497        / MonitoringLogger                                                       / Authentication Started. 
+*ERROR      /  2022-07-14 12:15:19,507        / MonitoringLogger                                                       / harshpandey9072@gmail.com Have Wrong Credentials Format. 
+*ERROR      /  2022-07-14 12:15:19,604        / MonitoringLogger                                                       / Catched Error While Authentication UserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*ERROR      /  2022-07-14 12:15:19,604        / MonitoringLogger                                                       / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*ERROR      /  2022-07-14 12:15:19,604        / MonitoringLogger                                                       / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*INFO       /  2022-07-14 12:15:40,225        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:15:40,377        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:15:40,563        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:15:40,579        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:15:40,579        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:15:40,611        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:16:07,861        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:16:07,862        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:16:07,864        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:16:07,864        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:16:07,864        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:16:07,883        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:19:47,941        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:19:47,941        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:19:47,958        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:19:47,958        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:19:47,958        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:19:47,992        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:20:05,903        / MonitoringLogger                                                       / Authentication Started. 
+*ERROR      /  2022-07-14 12:20:05,904        / MonitoringLogger                                                       / harshpandey9072@gmail.com Have Wrong Credentials Format. 
+*ERROR      /  2022-07-14 12:20:05,933        / MonitoringLogger                                                       / Catched Error While Authentication UserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*ERROR      /  2022-07-14 12:20:05,933        / MonitoringLogger                                                       / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*ERROR      /  2022-07-14 12:20:05,933        / MonitoringLogger                                                       / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: Wrong Credentials Format
+   at UserManagementApi.BusinessLayer.AuthenticateService.Authenticate(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\AuthenticateService.cs:line 16
+   at UserManagementApi.UserService.AuthenticateUser(UserCredentials userCredentials) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 18. 
+*INFO       /  2022-07-14 12:20:13,569        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:20:13,602        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:20:13,603        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:20:13,603        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:20:13,603        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:20:13,617        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:44:04,790        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:44:04,790        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:44:04,821        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:44:04,821        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:44:04,821        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:44:04,853        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:45:13,418        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:45:13,418        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:45:13,418        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:45:13,418        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:45:13,418        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:45:13,451        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:51:41,158        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:51:41,158        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:51:41,162        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:51:41,162        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:51:41,162        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:51:41,178        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 
+*INFO       /  2022-07-14 12:58:42,069        / MonitoringLogger                                                       / Authentication Started. 
+*INFO       /  2022-07-14 12:58:42,069        / MonitoringLogger                                                       / Executing Execute scaler with procedure name :authenticate. 
+*INFO       /  2022-07-14 12:58:42,077        / MonitoringLogger                                                       /  Succesfully Open Connection . 
+*INFO       /  2022-07-14 12:58:42,077        / MonitoringLogger                                                       / Returning Response from Database. 
+*INFO       /  2022-07-14 12:58:42,077        / MonitoringLogger                                                       /  Succesfully Close Connection . 
+*INFO       /  2022-07-14 12:58:42,093        / MonitoringLogger                                                       / harshpandey9072@gmail.com is Authenticated Wwith Token Assigned (P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/0lswu2snS+FSy3aa33/6Ag==). 

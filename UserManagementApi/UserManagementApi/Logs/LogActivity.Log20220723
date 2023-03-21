@@ -1,0 +1,91 @@
+*INFO       /  2022-07-23 12:20:24,218        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harsh@gamil.com. 
+*INFO       /  2022-07-23 12:20:24,231        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-23 12:20:24,340        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-23 12:20:24,347        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : harsh@gamil.com with procedure name : authenticate. 
+*INFO       /  2022-07-23 12:20:24,348        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : harsh@gamil.com. 
+*INFO       /  2022-07-23 12:20:24,374        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harsh@gamil.comWith Token Generated : owMZ9K69I8TgMDcxkUW0RizlyuMgVVGDeOAaOA4j1KeteqfXuPFmpRhIa3NznADR9THI1nMkME6RhVwFpjOAdf/C7VDeuxcwfz/6nWx9ZRm5kHjjqp02d/OIrRrNhdcD. 
+*ERROR      /  2022-07-23 12:20:29,306        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 38
+   at UserManagementApi.CustomAttributes.CustomAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomAuthorization.cs:line 50. 
+*ERROR      /  2022-07-23 12:20:29,306        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 38
+   at UserManagementApi.CustomAttributes.CustomAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomAuthorization.cs:line 50. 
+*INFO       /  2022-07-23 12:20:50,791        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-23 12:20:50,791        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:20:50,791        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-23 12:20:50,791        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:20:50,791        / UserManagementApi.DatabaseLayer.UserRepository.UpdateRepository / User Updated Succesfully with email : harsh@gamil.com. 
+*ERROR      /  2022-07-23 12:21:05,579        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 38
+   at UserManagementApi.CustomAttributes.CustomAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomAuthorization.cs:line 50. 
+*ERROR      /  2022-07-23 12:21:05,579        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 38
+   at UserManagementApi.CustomAttributes.CustomAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomAuthorization.cs:line 50. 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReterieveByEmailPassword. 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReterieveByEmailPassword. 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-23 12:21:16,073        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:21:16,089        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-23 12:21:26,371        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-23 12:21:26,371        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-23 12:21:36,295        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-23 12:21:36,296        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*INFO       /  2022-07-23 12:21:57,545        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-23 12:21:57,546        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-23 12:21:57,548        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-23 12:21:57,550        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By : yashsinghgupta212@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-23 12:21:57,550        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-23 12:21:57,582        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta212@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP13XuhjXuEU+E2elXZR5o9moiLB5u9cvBUurlmoOYbz4yI5sfAkwyO2rTauW7wU676kSj0keP1KeQozgQDpXF15U9Hf6DzwDvXFUxqN2MJ8tw==. 
+*INFO       /  2022-07-23 12:22:02,901        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : prathammathur2161@gmail.com. 
+*INFO       /  2022-07-23 12:22:02,902        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-23 12:22:02,903        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:02,906        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-23 12:22:02,906        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-23 12:22:02,940        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Validation exceptionUserManagementApi.ExceptionHandler.ValidationException: This Email Already Exist
+   at UserManagementApi.DatabaseLayer.UserRepository.CreateRepository..ctor(String userEmail) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\UserRepository\CreateRepository.cs:line 17
+   at UserManagementApi.BusinessLayer.UserRepository.CreateService.Add(User newUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\CreateService.cs:line 20
+   at UserManagementApi.UserService.CreateUser(User newUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 30. 
+*ERROR      /  2022-07-23 12:22:02,940        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.ValidationException: This Email Already Exist
+   at UserManagementApi.DatabaseLayer.UserRepository.CreateRepository..ctor(String userEmail) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\UserRepository\CreateRepository.cs:line 17
+   at UserManagementApi.BusinessLayer.UserRepository.CreateService.Add(User newUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\User\CreateService.cs:line 20
+   at UserManagementApi.UserService.CreateUser(User newUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 30. 
+*INFO       /  2022-07-23 12:22:35,997        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:35,997        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteReader Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : ReteriveUser. 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.UserRepository.GetRepository / Getting Response of ExecuteReader forReteriveUser. 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:35,999        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-23 12:22:36,000        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:36,004        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-23 12:22:36,004        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:36,004        / UserManagementApi.DatabaseLayer.UserRepository.DeleteRepository /  User Deleted Succesfully Having Id : ff05fb16-1c3f-4f9e-951d-5c7b2e9ad505. 
+*INFO       /  2022-07-23 12:22:40,853        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : prathammathur2161@gmail.com. 
+*INFO       /  2022-07-23 12:22:40,853        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-23 12:22:40,854        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:40,854        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-23 12:22:40,854        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:40,854        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Creating The User With Email : prathammathur2161@gmail.com. 
+*INFO       /  2022-07-23 12:22:40,854        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-23 12:22:40,855        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:40,858        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-23 12:22:40,859        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:22:40,859        / UserManagementApi.DatabaseLayer.UserRepository.CreateRepository /  Created Succesfully The User With Email : prathammathur2161@gmail.com. 
+*INFO       /  2022-07-23 12:23:00,513        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-23 12:23:00,513        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-23 12:23:00,535        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-23 12:23:00,535        / UserManagementApi.DatabaseLayer.DatabaseHelper.DatabaseConnectionHelper /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-23 12:23:00,535        / UserManagementApi.DatabaseLayer.UserRepository.UpdateRepository / User Updated Succesfully with email : harsh@gamil.com. 

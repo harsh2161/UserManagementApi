@@ -1,0 +1,537 @@
+*INFO       /  2022-07-18 00:05:26,837        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:05:26,853        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:05:26,933        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:05:26,941        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:05:26,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:05:26,981        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:05:26,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:05:26,981        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:05:26,981        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:05:26,989        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:05:26,989        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:06:36,661        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:06:36,669        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:06:36,763        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:06:36,771        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:07:10,400        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:07:10,401        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:07:10,401        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:41,679        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:12:41,687        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:12:41,778        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:41,786        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:12:41,786        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:41,786        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:12:41,794        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:41,794        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:12:41,794        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:12:41,794        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:12:41,794        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:12:41,858        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:41,858        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 00:12:41,858        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:54,476        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:12:54,482        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:12:54,482        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:12:54,482        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:12:54,508        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:12:54,508        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 00:12:54,509        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:13:18,242        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:13:18,270        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:18,270        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 00:13:18,270        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 00:13:43,007        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:13:43,008        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:13:43,008        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:43,009        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:13:43,010        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:43,010        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:13:43,011        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:43,011        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:13:43,011        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:13:43,012        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:13:43,012        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:13:49,965        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:13:49,965        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 00:13:49,965        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 00:19:56,025        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:19:56,041        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:19:56,113        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:19:56,121        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:19:56,121        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:19:56,121        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:19:56,121        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:19:56,121        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:19:56,129        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:19:56,129        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:19:56,129        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:20:03,722        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:20:03,723        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 00:20:03,772        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 59
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 00:20:56,192        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:20:56,192        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:20:56,192        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:20:56,193        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:20:56,193        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:20:56,193        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:20:56,194        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:20:56,194        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:20:56,195        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:20:56,195        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:20:56,195        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:36:45,642        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:36:45,659        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:36:45,790        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:36:45,800        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:36:45,801        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:36:45,801        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:36:45,807        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:36:45,807        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:36:45,815        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:36:45,816        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:36:45,816        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:36:45,818        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:36:45,818        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:36:45,818        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:21,182        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:21,183        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:21,183        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:21,184        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:21,184        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:21,184        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:21,184        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:21,184        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:21,185        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:21,185        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:21,185        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:21,185        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:21,185        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:21,185        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:31,108        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:31,110        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:31,111        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:31,111        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:31,111        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:31,111        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:31,112        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:31,112        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:31,113        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:31,113        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:31,113        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:31,114        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:31,114        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:31,114        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:39,496        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:39,497        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:39,497        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:39,498        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:39,499        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:39,499        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:39,499        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:39,499        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:39,500        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:39,500        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:39,500        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:39,500        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:39,500        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:39,500        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:43,156        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:43,157        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:43,157        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:43,157        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:43,158        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:43,158        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:43,158        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:43,158        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:43,159        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:43,159        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:43,159        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:43,159        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:43,159        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:43,159        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:46,009        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:46,010        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:46,010        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:46,012        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:46,013        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:46,013        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:46,013        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:48,624        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:48,624        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:48,625        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:48,625        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:48,625        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:48,625        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:48,626        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:48,626        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:48,627        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:48,627        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:48,627        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:48,627        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:48,628        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:48,628        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:57,017        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:37:57,017        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:57,017        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:57,018        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:37:57,018        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:57,018        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:37:57,019        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:57,019        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:57,020        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:57,020        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:37:57,020        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:37:57,020        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:37:57,020        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:37:57,020        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:00,861        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:38:00,861        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:00,862        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:00,862        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:00,862        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:00,862        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:38:00,863        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:00,863        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:00,863        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:00,863        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:00,863        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:38:00,864        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:38:00,864        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:00,864        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:04,197        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:38:04,198        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:04,199        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:04,199        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:04,199        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:04,199        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:38:04,199        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:04,199        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:04,201        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:04,201        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:04,201        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:38:04,201        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:38:04,201        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:04,201        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:08,372        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:38:08,372        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:08,373        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:08,373        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:08,373        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:08,373        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:38:08,374        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:08,374        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:08,375        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:08,375        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:08,375        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:38:08,375        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:38:08,376        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:08,376        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:11,702        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:38:11,703        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:11,704        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:11,705        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:11,705        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:11,705        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:38:11,705        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:11,705        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:11,706        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:11,706        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:11,706        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:38:11,706        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:38:11,707        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:11,707        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:16,065        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:38:16,065        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:16,066        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:16,067        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:16,067        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:16,067        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:38:16,067        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:16,067        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:16,068        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:16,069        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:16,069        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:38:16,069        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:38:16,069        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:16,069        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:36,256        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:38:36,256        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:36,257        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:36,257        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:38:36,257        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:36,257        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:38:36,257        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:36,258        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:36,259        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:36,259        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:38:36,259        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:38:36,259        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:38:36,259        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:38:36,259        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:26,296        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:54:26,296        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:54:26,327        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:26,328        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:54:26,328        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:26,328        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:54:26,329        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:26,329        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:54:26,330        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:54:26,331        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:54:26,331        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:54:26,331        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:54:26,331        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:26,331        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:44,691        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:54:44,691        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:54:44,692        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:44,692        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:54:44,692        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:44,692        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:54:44,693        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:44,693        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:54:44,693        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:54:44,693        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:54:44,694        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:54:44,694        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:54:44,694        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:54:44,694        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:59:58,905        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 00:59:58,906        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:59:58,934        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:59:58,935        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 00:59:58,936        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:59:58,936        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 00:59:58,937        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 00:59:58,937        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:59:58,939        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 00:59:58,939        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 00:59:58,939        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 00:59:58,940        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 00:59:58,940        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 00:59:58,940        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:03:51,591        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:14,426        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:04:14,427        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:04:14,428        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:14,428        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:04:14,428        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:14,428        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:04:14,428        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:14,428        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:04:14,430        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:04:14,430        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:04:14,430        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:04:14,430        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 01:04:14,430        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:14,430        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:33,355        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:04:33,355        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:04:33,356        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:33,357        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:04:33,357        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:33,357        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:04:33,357        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:33,357        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:04:33,358        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:04:33,358        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:04:33,358        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:04:33,358        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 01:04:33,359        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:04:33,359        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:10:17,240        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:10:17,261        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:10:17,370        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:10:17,377        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:10:17,378        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:10:17,378        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:10:17,382        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:10:17,383        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:10:17,386        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:10:17,386        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:10:17,387        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:10:25,654        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:10:25,654        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 01:10:25,660        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 01:11:31,896        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:11:31,912        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:11:32,035        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:11:32,039        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:11:32,040        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:11:32,040        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:11:32,045        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:11:32,045        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:11:32,048        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:11:32,048        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:11:32,049        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:11:36,979        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:11:36,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 01:11:36,991        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 01:12:37,039        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:12:37,051        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:12:37,185        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:12:37,191        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:12:37,191        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:12:37,191        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:12:37,194        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:12:37,195        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:12:37,198        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:12:37,199        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:12:37,199        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:12:37,256        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:12:37,256        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*ERROR      /  2022-07-18 01:12:37,262        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.ParseExact(String s, String format, DateTimeFormatInfo dtfi, DateTimeStyles style)
+   at System.DateTime.ParseExact(String s, String format, IFormatProvider provider, DateTimeStyles style)
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.ReadUserList(MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 58
+   at UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService.Read[T](MySqlDataReader response) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\DatabaseHelper\ReadService.cs:line 27
+   at UserManagementApi.DatabaseLayer.GetData.Get[T](String procedureName, Hashtable parameterList) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\DatabaseLayer\GetData.cs:line 20
+   at UserManagementApi.BusinessLayer.UserRepository.GetUsersService.Get(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUsersService.cs:line 25
+   at UserManagementApi.UserService.GetUserList(SearchFilter searchFilter) in C:\Users\harsh.p\Desktop\Project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 87. 
+*INFO       /  2022-07-18 01:13:44,474        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:13:44,503        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:13:44,632        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:13:44,637        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:13:44,637        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:13:44,637        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:13:44,640        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:13:44,641        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:13:44,646        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:13:44,646        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:13:44,646        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:15:02,497        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:15:02,524        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:15:02,644        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:02,650        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:15:02,651        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:02,651        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:15:02,658        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:02,658        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:02,661        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:02,661        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:02,661        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:15:02,663        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 01:15:02,664        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:02,665        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:15,903        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:17,898        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com Getting Values from token for authorizaion. 
+*INFO       /  2022-07-18 01:15:17,898        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:15:17,898        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : authorize. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.AuthorizationService / harshpandey9072@gmail.com is Authorized. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteReader Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : SearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.GetData            / Getting Response of ExecuteReader forSearchFilterSorts. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Checking Type of generic. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseHelper.ReadService / Returning List of Users. 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-18 01:15:17,900        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 

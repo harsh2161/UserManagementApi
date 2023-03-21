@@ -1,0 +1,384 @@
+*ERROR      /  2022-07-21 10:44:37,757        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 10:44:37,762        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 11:13:48,068        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*ERROR      /  2022-07-21 11:13:48,072        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*ERROR      /  2022-07-21 11:14:39,175        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*ERROR      /  2022-07-21 11:14:39,175        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*INFO       /  2022-07-21 11:31:59,489        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 11:31:59,507        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 11:31:59,626        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 11:31:59,635        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 11:31:59,636        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 11:31:59,636        / UserManagementApi.DatabaseLayer.Authenticate       / NotAuthenticated Having Email : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 11:32:10,377        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 11:32:10,377        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 11:32:10,379        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 11:32:10,380        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 11:32:10,380        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 11:32:10,419        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/B506kQh/I4t0QyF9uFY1dA==. 
+*ERROR      /  2022-07-21 11:32:50,823        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*ERROR      /  2022-07-21 11:32:50,823        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*ERROR      /  2022-07-21 11:33:49,372        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*ERROR      /  2022-07-21 11:33:49,373        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 53. 
+*INFO       /  2022-07-21 12:32:08,859        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:32:08,870        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:32:08,965        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:32:08,972        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:32:08,972        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:32:08,972        / UserManagementApi.DatabaseLayer.Authenticate       / NotAuthenticated Having Email : harshpandey907@gmail.com. 
+*ERROR      /  2022-07-21 12:32:52,642        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 55. 
+*ERROR      /  2022-07-21 12:32:52,642        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 55. 
+*ERROR      /  2022-07-21 12:33:53,551        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 55. 
+*ERROR      /  2022-07-21 12:33:53,551        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(String role) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 55. 
+*INFO       /  2022-07-21 12:46:12,690        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:46:12,698        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:46:12,778        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:46:12,778        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:46:12,786        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:46:18,814        / UserManagementApi.DatabaseLayer.Authenticate       / NotAuthenticated Having Email : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:46:25,725        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:46:25,725        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:46:25,725        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:46:25,725        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:46:25,725        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:46:58,922        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/B506kQh/I4t0QyF9uFY1dA==. 
+*INFO       /  2022-07-21 12:47:32,500        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:47:32,500        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:47:32,500        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:47:32,500        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:47:32,500        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:47:42,275        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBoffAuqTix8ErNJWo1TL1271Wfd1x1L+AiHTp9czkwoWWMQu2OpPZIY+iwn8cOmT/B506kQh/I4t0QyF9uFY1dA==. 
+*INFO       /  2022-07-21 12:50:30,749        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:50:30,757        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:50:30,837        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:50:30,845        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey907@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:50:30,845        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:50:30,845        / UserManagementApi.DatabaseLayer.Authenticate       / NotAuthenticated Having Email : harshpandey907@gmail.com. 
+*INFO       /  2022-07-21 12:50:35,657        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:50:35,657        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:50:35,657        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:50:35,657        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:50:35,657        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:50:35,673        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBHL7M/shpVmhW6XrDrQA5KE/y6MJflUtk23AXoTLxlsa4TONYFG6uCvcNvj6/g3y2IB3KHrDmYE02D0RS5/zsl85ftmmxUpOy19/ZmICpf2U=. 
+*INFO       /  2022-07-21 12:52:41,404        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:52:41,420        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:52:41,524        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:52:41,528        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 12:52:41,528        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 12:52:41,549        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBHL7M/shpVmhW6XrDrQA5KE/y6MJflUtk23AXoTLxlsa4TONYFG6uCvcNvj6/g3y2IB3KHrDmYE02D0RS5/zsl85ftmmxUpOy19/ZmICpf2U=. 
+*INFO       /  2022-07-21 14:20:59,638        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:20:59,649        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:20:59,733        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:20:59,733        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:20:59,733        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:20:59,749        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBHL7M/shpVmhW6XrDrQA5KE/y6MJflUtk23AXoTLxlsa4TONYFG6uCvcNvj6/g3y2IB3KHrDmYE02D0RS5/zsl85ftmmxUpOy19/ZmICpf2U=. 
+*ERROR      /  2022-07-21 14:22:21,860        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 54. 
+*ERROR      /  2022-07-21 14:22:21,868        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 54. 
+*INFO       /  2022-07-21 14:22:49,611        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:22:49,708        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:22:49,820        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:22:49,828        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:22:49,828        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:22:49,844        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBHL7M/shpVmhW6XrDrQA5KE/y6MJflUtk23AXoTLxlsa4TONYFG6uCvcNvj6/g3y2IB3KHrDmYE02D0RS5/zsl85ftmmxUpOy19/ZmICpf2U=. 
+*ERROR      /  2022-07-21 14:24:02,819        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.NotImplementedException: The method or operation is not implemented.
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 52
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get[T]() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 33
+   at UserManagementApi.UserService.GetYourself() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 59. 
+*ERROR      /  2022-07-21 14:25:09,841        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.NotImplementedException: The method or operation is not implemented.
+   at UserManagementApi.DatabaseLayer.AuthorizationService.ReturnParameters() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 52
+   at UserManagementApi.BusinessLayer.UserRepository.GetUserService.Get[T]() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\GetUserService.cs:line 33
+   at UserManagementApi.UserService.GetYourself() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 59. 
+*ERROR      /  2022-07-21 14:30:02,611        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 47. 
+*ERROR      /  2022-07-21 14:31:13,925        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 47. 
+*ERROR      /  2022-07-21 14:32:42,094        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.NullReferenceException: Object reference not set to an instance of an object.
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 47. 
+*INFO       /  2022-07-21 14:33:49,331        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:33:49,339        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:33:49,427        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:33:49,427        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:33:49,427        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:33:49,443        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBHL7M/shpVmhW6XrDrQA5KE/y6MJflUtk23AXoTLxlsa4TONYFG6uCvcNvj6/g3y2IB3KHrDmYE02D0RS5/zsl85ftmmxUpOy19/ZmICpf2U=. 
+*INFO       /  2022-07-21 14:34:05,629        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:34:05,629        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:34:05,629        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:34:05,629        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey9072@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:34:05,629        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey9072@gmail.com. 
+*INFO       /  2022-07-21 14:34:05,645        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey9072@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+LpIwnLf1oVjZRTAv5o5vURSZHiLQf0hb3AulD5/sAmBHL7M/shpVmhW6XrDrQA5KE/y6MJflUtk23AXoTLxlsa4TONYFG6uCvcNvj6/g3y2IB3KHrDmYE02D0RS5/zsl85ftmmxUpOy19/ZmICpf2U=. 
+*ERROR      /  2022-07-21 14:42:55,490        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 14:42:55,498        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 14:43:24,623        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 32
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*INFO       /  2022-07-21 14:44:15,830        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:44:15,830        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 14:44:15,926        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:44:15,970        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 14:44:15,973        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:44:15,973        / UserManagementApi.DatabaseLayer.Create             /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:44:15,973        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 14:44:15,973        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:44:15,981        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 14:44:15,981        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:44:15,981        / UserManagementApi.DatabaseLayer.Create             /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*ERROR      /  2022-07-21 14:45:11,685        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 32
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*INFO       /  2022-07-21 14:45:33,548        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:45:33,548        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:45:33,593        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:45:33,593        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:45:33,593        / UserManagementApi.DatabaseLayer.Delete             /  User Deleted Succesfully Having Id : e2084bb3-b159-4474-8bbe-0357c30ae14d. 
+*INFO       /  2022-07-21 14:48:53,515        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:48:53,531        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 14:48:53,611        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:48:53,611        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 14:48:53,611        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:48:53,611        / UserManagementApi.DatabaseLayer.Create             /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:48:53,619        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 14:48:53,619        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:48:53,659        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 14:48:53,659        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:48:53,659        / UserManagementApi.DatabaseLayer.Create             /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:48:57,482        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:48:57,482        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:48:57,482        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:48:57,482        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:48:57,482        / UserManagementApi.DatabaseLayer.Delete             / User Not Deleted Having Id : e2084bb3-b159-4474-8bbe-0357c30ae14d. 
+*INFO       /  2022-07-21 14:49:03,415        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:49:03,415        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:49:03,415        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:49:03,415        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:49:03,415        / UserManagementApi.DatabaseLayer.Delete             / User Not Deleted Having Id : e2084bb3-b159-4474-8bbe-0357c30ae14d. 
+*INFO       /  2022-07-21 14:49:43,373        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:49:43,373        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:49:43,381        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:49:43,381        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:49:43,381        / UserManagementApi.DatabaseLayer.Delete             /  User Deleted Succesfully Having Id : a1fcf5e3-4403-427f-bb91-986ba5873a80. 
+*INFO       /  2022-07-21 14:50:54,833        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta2161@gmail.com. 
+*INFO       /  2022-07-21 14:50:54,949        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta2161@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:50:55,082        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta2161@gmail.com. 
+*INFO       /  2022-07-21 14:50:55,082        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta2161@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:50:55,082        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta2161@gmail.com. 
+*INFO       /  2022-07-21 14:50:55,090        / UserManagementApi.DatabaseLayer.Authenticate       / NotAuthenticated Having Email : yashsinghgupta2161@gmail.com. 
+*INFO       /  2022-07-21 14:51:47,259        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 14:51:47,259        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta21@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:51:47,259        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 14:51:47,259        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta21@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 14:51:47,259        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 14:51:47,283        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta21@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP3JwQcTUYlzbQRg4e3JW2dW4p+1/B3ZTe0m6N7jXfZS0fuyZ9w1HqQdvJCrJwNPFEWyLqrmvAOIB0lQCdRB2KdlRo2dd4UHwsrHglmccNGCtg==. 
+*ERROR      /  2022-07-21 14:52:18,781        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 47
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*ERROR      /  2022-07-21 14:52:18,781        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 47
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*ERROR      /  2022-07-21 14:52:47,936        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 47
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*ERROR      /  2022-07-21 14:52:47,936        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 47
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*INFO       /  2022-07-21 14:53:06,520        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:53:06,520        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 14:53:06,520        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:53:06,527        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 14:53:06,527        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:53:06,527        / UserManagementApi.DatabaseLayer.Create             /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 14:53:06,527        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 14:53:06,527        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:53:06,572        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 14:53:06,572        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:53:06,572        / UserManagementApi.DatabaseLayer.Create             /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*ERROR      /  2022-07-21 14:54:06,289        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 47
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*ERROR      /  2022-07-21 14:54:06,289        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 47
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*INFO       /  2022-07-21 14:54:19,556        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:54:19,556        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 14:54:19,600        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 14:54:19,600        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 14:54:19,600        / UserManagementApi.DatabaseLayer.Delete             /  User Deleted Succesfully Having Id : 6009e3d8-d48e-44d9-b632-184a821dcd3e. 
+*INFO       /  2022-07-21 18:11:02,868        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:11:02,884        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:11:02,956        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:11:02,964        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:11:02,964        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:11:02,980        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey92@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+JqBkKLrMKLj/vA53Nquuz3dG9t7dFZca7bwzsowQMRH120fJKmR7/l2FHDovAk1rG8nG3G3R8v4H+mQQagZI+J1LzR/XNL+t21UO0PqvXQmchhmxAzHUmI8FCTwjaLHMg==. 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.BusinessLayer.UserRepository.CreateService /  All Fields Are Validated for User With : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CheckDuplicate. 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.Create             /  Creating The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 18:12:31,029        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:12:31,070        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : CreateUser. 
+*INFO       /  2022-07-21 18:12:31,070        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:12:31,070        / UserManagementApi.DatabaseLayer.Create             /  Created Succesfully The User With Email : nephalsinghchauhan2161@gmail.com. 
+*INFO       /  2022-07-21 18:13:24,839        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 18:13:24,839        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:13:24,847        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : DeleteUser. 
+*INFO       /  2022-07-21 18:13:24,847        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:13:24,847        / UserManagementApi.DatabaseLayer.Delete             /  User Deleted Succesfully Having Id : 590221ad-5828-4de0-b604-9ee2e6a53567. 
+*ERROR      /  2022-07-21 18:17:43,265        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 31
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*ERROR      /  2022-07-21 18:18:23,449        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 31
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*ERROR      /  2022-07-21 18:18:52,159        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Exception System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at UserManagementApi.DatabaseLayer.AuthorizationService.AuthorizeUser() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 31
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 50. 
+*INFO       /  2022-07-21 18:23:18,148        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:23:18,270        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:23:18,418        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:23:18,427        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:23:18,427        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:23:18,443        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey92@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+JqBkKLrMKLj/vA53Nquuz3dG9t7dFZca7bwzsowQMRH120fJKmR7/l2FHDovAk1rG8nG3G3R8v4H+mQQagZI+J1LzR/XNL+t21UO0PqvXQmchhmxAzHUmI8FCTwjaLHMg==. 
+*INFO       /  2022-07-21 18:24:39,280        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:24:39,281        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:24:39,322        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:24:39,322        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:24:39,322        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta212@gmail.com. 
+*INFO       /  2022-07-21 18:27:33,552        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:27:33,554        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:27:33,593        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:27:33,593        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:27:33,593        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:28:43,955        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:28:43,955        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : yashsinghgupta21@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:28:43,963        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:28:43,963        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : yashsinghgupta21@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:28:43,963        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:28:43,979        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : yashsinghgupta21@gmail.comWith Token Generated : /u8iJBw3KcULOuTprkGajn1IiUzxO3OqtghcBaVcMP3JwQcTUYlzbQRg4e3JW2dW4p+1/B3ZTe0m6N7jXfZS0aaQKGweUQYEhbwsgps9rfDG+9ftkim0smDCgNOYCy6+llR1V9y8nckg5UTIU6h7hg==. 
+*INFO       /  2022-07-21 18:29:11,568        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:29:11,576        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:29:11,612        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:29:11,612        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:29:11,612        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:29:36,295        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:29:36,295        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:29:36,336        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:29:36,336        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:29:36,336        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:29:56,864        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:29:56,864        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:29:56,907        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:29:56,907        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:29:56,907        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*ERROR      /  2022-07-21 18:30:29,733        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: User Can Update Himself Only
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-21 18:30:29,733        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: User Can Update Himself Only
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*INFO       /  2022-07-21 18:34:56,115        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:34:56,195        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:34:56,203        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:34:56,203        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:34:56,203        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:35:03,169        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:35:03,169        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:35:03,177        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:35:03,177        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:35:03,177        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:37:00,617        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:37:00,713        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:37:00,747        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:37:00,747        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:37:00,747        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*ERROR      /  2022-07-21 18:37:22,895        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-21 18:37:22,895        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-21 18:37:39,478        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*ERROR      /  2022-07-21 18:37:39,478        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: NotAuthorized
+   at UserManagementApi.BusinessLayer.UserRepository.UpdateService.Update() in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\BusinessLayer\UserRepository\UpdateService.cs:line 45
+   at UserManagementApi.UserService.UpdateUser(User updateUser) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\UserService.svc.cs:line 43. 
+*INFO       /  2022-07-21 18:38:03,539        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:38:03,539        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:38:03,587        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:38:03,587        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:38:03,587        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta21@gmail.com. 
+*INFO       /  2022-07-21 18:40:16,895        / UserManagementApi.DatabaseLayer.Authenticate       /  Authentication Process Started for : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:40:16,904        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing Execute scaler Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:40:17,029        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:40:17,032        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By : harshpandey92@gmail.com with procedure name : authenticate. 
+*INFO       /  2022-07-21 18:40:17,033        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : harshpandey92@gmail.com. 
+*INFO       /  2022-07-21 18:40:17,051        / UserManagementApi.DatabaseLayer.Authenticate       / Authenticated User Having Email : harshpandey92@gmail.comWith Token Generated : P1U+io1OePjCp284gUiq+JqBkKLrMKLj/vA53Nquuz3dG9t7dFZca7bwzsowQMRH120fJKmR7/l2FHDovAk1rG8nG3G3R8v4H+mQQagZI+J1LzR/XNL+t21UO0PqvXQmchhmxAzHUmI8FCTwjaLHMg==. 
+*INFO       /  2022-07-21 18:41:26,511        / UserManagementApi.DatabaseLayer.DatabaseConnection / Executing ExecuteNonQuery Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:41:26,519        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Open Connection Requested by : . 
+*INFO       /  2022-07-21 18:41:26,560        / UserManagementApi.DatabaseLayer.DatabaseConnection / Returning Response from Database Request By :  with procedure name : UpdateUser. 
+*INFO       /  2022-07-21 18:41:26,560        / UserManagementApi.DatabaseLayer.DatabaseConnection /  Succesfully Close Connection Requested by : . 
+*INFO       /  2022-07-21 18:41:26,560        / UserManagementApi.DatabaseLayer.Update             / User Updated Succesfully with email : yashsinghgupta212@gmail.com. 
+*ERROR      /  2022-07-21 22:36:37,444        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 22:36:37,452        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 22:37:54,460        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 22:37:54,468        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 22:43:32,094        / UserManagementApi.ExceptionHandler.GlobalException / Throwing Unauthorized exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
+*ERROR      /  2022-07-21 22:43:32,094        / UserManagementApi.ExceptionHandler.GlobalException / Throwing WebFault Exception UserManagementApi.ExceptionHandler.AuthorizationException: Token Null
+   at UserManagementApi.DatabaseLayer.AuthorizationService..ctor(AvailableRoles[] allowedRole) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\DatabaseLayer\AuthorizationService.cs:line 24
+   at UserManagementApi.CustomAttributes.CustomMembershipAuthorization.BeforeCall(String operationName, Object[] inputs) in C:\Users\harsh.p\Desktop\final project\UserManagementApi\UserManagementApi\CustomAttributes\CustomMembershipAuthorization.cs:line 49. 
